@@ -18,11 +18,11 @@ function Lesson17() {
   // 13. Вызываем dispatch и передаём в него вызов необходимых экшенов.
   // Вызов диспатча нужно делать внутри функции, которая срабатывает при клике кнопку
   const onPlus = () => {
-    dispatch(counterActions.plus())
+    dispatch(counterActions.plus(10))
   }
 
   const onMinus = () => {
-    dispatch(counterActions.minus())
+    dispatch(counterActions.minus(5))
   }
 
   return (
